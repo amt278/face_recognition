@@ -1,3 +1,3 @@
 # Face recognition model
 
-put images to the faces you want to recognize in a folder named faces
+put images of the person you want to recognize in a folder named faces
