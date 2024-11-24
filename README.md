@@ -26,13 +26,12 @@ pip install -r requirements.txt
 1. Clone the Repository:
 
 ```bash
-git clone https://github.com/amt278/face_recognition_system.git
-cd face_recognition_system
+git clone https://github.com/amt278/face_recognition.git
+cd face_recognition
 ```
 
 2. Prepare Known Faces:
-   - Create a directory named faces in the project root.
-   - Add images of the individuals you want to recognize in this directory. The filenames will be used as the names for recognition (e.g., john_doe.jpg will be recognized as "john_doe").
+   - Add images of the individuals you want to recognize in the faces directory. The filenames will be used as the names for recognition (e.g., john_doe.jpg will be recognized as "john_doe").
 
 3. Run the Application:
 
@@ -43,7 +42,7 @@ python face_recognition.py
 4. Usage:
    - The application will open a window displaying the webcam feed.
    - It will attempt to recognize faces in the feed and display the names along with confidence percentages.
-Press 'q' to quit the application.
+   - Press 'q' to quit the application.
 
 ## Code Overview
 - face_confidence: A function that computes the confidence level of a face match based on the distance between face encodings.
