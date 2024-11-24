@@ -19,7 +19,7 @@ To run this application, you'll need the following:
 You can install the required libraries using pip:
 
 ```bash
-pip install opencv-python numpy face_recognition
+pip install -r requirements.txt
 ```
 
 ## Setup
